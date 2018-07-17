@@ -118,7 +118,7 @@ class Control(object):
 
 
 if __name__ == "__main__":
-    os.environ['SDL_VIDEO_CENTERED'] = '1'
+    os.environ['SDL_VIDEO_CENTEREd'] = '1'
     pg.init()
     pg.display.set_mode(SCREEN_SIZE)
     FRACTAL = pg.image.load("frac.jpg").convert()

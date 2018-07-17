@@ -19,7 +19,7 @@ CAPTION = "Direction of Collision: Masks"
 SCREEN_SIZE = (500, 500)
 BACKGROUND_COLOR = (40, 40, 40)
 COLOR_KEY = (255, 0, 255)
-TEXT_COLOR = (200, 200, 230)
+TEXT_COLOR = (200,200,230)
 
 DIRECT_DICT = {pg.K_LEFT  : (-1, 0),
                pg.K_RIGHT : ( 1, 0),

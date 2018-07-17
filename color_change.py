@@ -50,8 +50,9 @@ class App(object):
                 # If the user presses escape or closes the window we're done.
                 self.done = True
             elif event.type == pg.MOUSEBUTTONDOWN:
+            # elif for h in range(10):
                 # If the user clicks the screen, change the color.
-                self.color = [random.randint(0, 255) for _ in range(3)]
+                self.color = [random.randint(100,255) for _ in range(3)]
             elif event.type in (pg.KEYUP, pg.KEYDOWN):
                 # Update keys when a key is pressed or released.
                 self.keys = pg.key.get_pressed() 
